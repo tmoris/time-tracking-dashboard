@@ -213,6 +213,10 @@ flex-wrap: wrap;
   font-size: var(--fs-smalltext);
   opacity: 0.9;
 }
+.footer {
+  position: absolute;
+  bottom: 2em;
+}
 .attribution {
   font-size: 11px; text-align: center; 
 }
@@ -220,6 +224,15 @@ flex-wrap: wrap;
   color: hsl(228, 45%, 44%);
 }
   @media (min-width: 37.5rem) {
+
+    .container {
+      margin-block: 0;
+      padding-inline: 0;
+      }
+      main {
+        margin: 0;
+      }
+
 .grid-container {
 display: grid;
 grid-template-columns: repeat(4, minmax(100px,1fr));
